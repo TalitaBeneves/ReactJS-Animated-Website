@@ -14,6 +14,9 @@ export const MainContentStyled = styled.div`
       height: 100%;
       width: 100%;
       
+        .btns-con{
+          margin-top: 2rem;
+        }
       .left{
           display: flex;
           justify-content: center;
