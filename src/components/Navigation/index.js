@@ -1,15 +1,15 @@
 import React from 'react';
-import { 
-  NavigationStyled, 
+import logo from '../../img/logo2.png';
+import { NavigationStyled } from './styles.js';
 
-} from './styles.js';
+
 const Navigation = () => {
   return (
     <NavigationStyled>
       <div className="logo">
-        {/* <img src={logo} alt="" /> */}
+        <img src={logo} alt="" />
       </div>
-      
+
       <ul className="nav-items">
         <li>
           <a href="#">Home</a>
@@ -26,7 +26,7 @@ const Navigation = () => {
         <li>
           <a href="#">Contact</a>
         </li>
-          <div className="primaty-btn">GET CONNECTED</div>
+          <div className="primary-btn">GET CONNECTED</div>
       </ul>
     </NavigationStyled>
   )
