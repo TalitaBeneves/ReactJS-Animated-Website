@@ -12,6 +12,7 @@ const BodyContent = () => {
                 <MainTitle title={'Top 4 Montanhas perigosas'} subtitle={'Montanhas Perigosas'} />
                 <div className="sellercards">
                    <SellerCard />
+                   
                 </div>
                
             </InnerLayout>
