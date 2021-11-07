@@ -2,10 +2,7 @@ import React from 'react';
 import Mountain from '../../video//Mountain.mp4';
 import circle from '../../img/circles.svg';
 import MainContent from '../MainContent'
-import {
-  MainAreaStyled,
-  InnerLayout
-} from './styles.js';
+import { MainAreaStyled, InnerLayout } from './styles.js';
 
 const MainArea = () => {
   return (

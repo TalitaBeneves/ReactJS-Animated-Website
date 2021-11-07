@@ -9,9 +9,11 @@ export const CtaButtonStyled = styled.a`
     font-weight: 500;
     cursor: pointer;
     transition: all .4s ease-in-out;
+
     &:last-child{
         margin-left: 1.5rem;
     }
+    
     &:hover{
         transition: all .4s ease-in-out;
         background: linear-gradient(120deg,  #EB3FA9, #395FF6);

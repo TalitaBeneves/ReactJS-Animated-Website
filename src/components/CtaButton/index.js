@@ -1,7 +1,8 @@
 import React from 'react'
 import { CtaButtonStyled } from './styles.js';
 
-function CtaButton ({name}){
+
+function CtaButton ({name}) {
   return (
     <CtaButtonStyled>
       {name}
