@@ -26,6 +26,21 @@ const GlobalStyle = createGlobalStyle`
   p{
     line-height: 2rem;
   }
+
+  .Before{
+    position: relative;
+    padding-left: 3rem;
+    
+      &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 35px;
+        height: 2px;
+        background-color: #395FF6;
+      }
+  }
 `;
 
 export default GlobalStyle;

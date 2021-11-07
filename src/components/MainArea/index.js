@@ -1,5 +1,5 @@
 import React from 'react';
-import cidade from '../../video//marketing.mp4';
+import Mountain from '../../video//Mountain.mp4';
 import circle from '../../img/circles.svg';
 import MainContent from '../MainContent'
 import {
@@ -10,7 +10,7 @@ import {
 const MainArea = () => {
   return (
     <MainAreaStyled>
-      <video src={cidade} muted playsInline autoPlay loop></video>
+      <video src={Mountain} muted playsInline autoPlay loop></video>
       <img src={circle} alt="" className="overlay" />
 
       <InnerLayout>

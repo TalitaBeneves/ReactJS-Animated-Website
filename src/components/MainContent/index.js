@@ -1,20 +1,26 @@
 import React from 'react';
 import Navigation from '../Navigation';
-import { MainContentStyled } from './styles';
+import SmallHeading from '../SmallHeading.js';
+import { MainContentStyled } from './styles.js';
 
 const MainContent = () => {
   return (
-    <div>
-      <MainContentStyled>
-          <Navigation />
-          <div className="content">
+      <MainContentStyled >
+        <Navigation />
+        <div className="content">
             <div className="left">
-
+              <SmallHeading title={'Um pouco sobre as montanhas'} identifier={'Before'} />
+              <h1>Montanha K2</h1>
+              <p>
+              As montanhas são formadas por forças tectônicas, erosão ou vulcanismo, que agem em escalas de tempo de até dezenas de milhões de anos. Uma vez que a construção da montanha cessa, as montanhas são lentamente niveladas pela ação do clima, por meio de quedas e outras formas de perda de massa, bem como pela erosão por rios e geleiras.
+              </p>
+              <div className="btns-con">
+                
+              </div>
             </div>
-            <div className="right"></div>
           </div>
       </MainContentStyled>
-    </div>
+    
   )
 }
 
