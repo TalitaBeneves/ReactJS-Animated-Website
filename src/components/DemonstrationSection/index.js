@@ -5,25 +5,27 @@ import CtaButton from '../CtaButton';
 import { DemonstrationSectionStyled } from './styles';
 import { SectionStyled } from '../MainArea/styles';
 
-import K2 from '../../img/k2.png';
-import Matterhorn from '../../img/Matterhorn.jpg';
+import Everest from '../../img/everest.png';
+import Kangchenjunga from '../../img/kangchenjunga.png';
+import Annapurna from '../../img/Annapurna.png';
+import Shishapangma from '../../img/Shishapangma.png';
 
 function DemonstrationSection() {
 
-  const ctaButton = <CtaButton name={'Place bid'} />
+  const ctaButton = <CtaButton name={'Compre'} />
 
   return (
     <DemonstrationSectionStyled>
       <SectionStyled>
         <div className="title-con">
-          <MainTitle title={'Live Demonstration'} subtitle={'Live Demonstration'} para={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'} />
+          <MainTitle title={'Pacotes de viagem'} para={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'} />
          </div>
 
          <div className="gradient-cards-con">
-           <GradientCard image={K2} avatar={K2} name={'@Joel Clock'} price={'0.067 ETH'} title={'Just a dummy title'} ctaButton={ctaButton} />
-           <GradientCard image={Matterhorn} avatar={Matterhorn} name={'@Joel Clock'} price={'0.067 ETH'} title={'Just a dummy title'} ctaButton={ctaButton} />
-           <GradientCard image={K2} avatar={K2} name={'@Joel Clock'} price={'0.067 ETH'} title={'Just a dummy title'} ctaButton={ctaButton} />
-           <GradientCard image={Matterhorn} avatar={Matterhorn} name={'@Joel Clock'} price={'0.067 ETH'} title={'Just a dummy title'} ctaButton={ctaButton} />
+           <GradientCard image={Everest} avatar={Everest} name={'Monte Everest'} price={'$ 1.050'} title={'Monte Everest ponto mais alto do mundo.'} ctaButton={ctaButton} />
+           <GradientCard image={Kangchenjunga} avatar={Kangchenjunga} name={'Kanchenjunga'} price={'$ 800'} title={'É a mais oriental das grandes montanhas.'} ctaButton={ctaButton} />
+           <GradientCard image={Annapurna} avatar={Annapurna} name={'Annapurna'} price={'$ 980'} title={'É a décima mais alta montanha da Terra.'} ctaButton={ctaButton} />
+           <GradientCard image={Shishapangma} avatar={Shishapangma} name={'Shishapangma'} price={'$ 887'} title={'Décima quarta montanha mais elevada do mundo.'} ctaButton={ctaButton} />
          </div>
       </SectionStyled>
     </DemonstrationSectionStyled>

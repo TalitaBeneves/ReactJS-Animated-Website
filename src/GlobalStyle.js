@@ -11,10 +11,20 @@ const GlobalStyle = createGlobalStyle`
 
   body{
     background-color: #03091f;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     font-weight: 400; 
     color: white; 
+    ::-webkit-scrollbar{
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track{
+        background: #ccc;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(180deg, #7F41DB 0%, #022894 100%);
+        border-radius: 24px;
+    }
   }
 
   a{

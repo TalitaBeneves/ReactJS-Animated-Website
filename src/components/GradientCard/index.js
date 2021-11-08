@@ -17,8 +17,7 @@ function GradientCard({image, avatar, name, price, title, ctaButton}) {
                     </div>
                     <div className="card-content">
                         <h6 className="card-title">{title}</h6>
-                        <p>Price <span className="price">{price}</span> &nbsp; &nbsp; <span className="l-text">1 of 15</span></p>
-                        <p>Highest Bid : &nbsp; <span className="price">{price}</span> </p>
+                        <p>Preço: <span className="price">{price}</span> &nbsp; &nbsp; <span className="l-text">1 of 15</span></p>
                         <div className="duration">
                             <p><img src={time} alt="" /> 7 Hours Ago</p>
                             <p><img src={heart} alt="" /> 200 Likes</p>

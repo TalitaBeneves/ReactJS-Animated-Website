@@ -24,4 +24,9 @@ export const MainContentStyled = styled.div`
       }
     }
 
+    h3{
+      color:#cfb1f9;
+      font-size: 25px;
+    }
+
   `;

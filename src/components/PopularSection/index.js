@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionStyled } from '../MainArea/styles';
 import { PopularSectionStyled } from './styles';
 import MainTitle from '../MainTitle';
-import blogs from '../../blogs';
+import blogs from '../../mountain';
 
 
 function PopularSection() {

@@ -5,6 +5,7 @@ import MainTitle from '../MainTitle';
 import SellerCard from '../SellerCard';
 import { BodyContentStyled } from './styles';
 import DemonstrationSection from '../DemonstrationSection';
+import ContactSection from '../ContactSection';
 
 
 const BodyContent = () => {
@@ -18,6 +19,7 @@ const BodyContent = () => {
                 <BlogsSection />
                 <DemonstrationSection />
             </InnerLayout>
+                <ContactSection />
             <footer>
                 <p>Copyright ©Talita Beneves. All Rights Reserved</p>
             </footer>

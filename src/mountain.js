@@ -3,7 +3,7 @@ import MontBlanc from './img/mont-blanc.png';
 import KalaPatthar from './img/Kala-Patthar.png';
 import Aconcágua from './img/ACONCÁGUA.png';
 
-const blogs = [
+const mountain = [
     {
         id: 1,
         name: 'Matterhorn',
@@ -30,4 +30,4 @@ const blogs = [
     }
 ]
 
-export default blogs;
+export default mountain;

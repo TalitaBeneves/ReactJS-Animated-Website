@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo2.png';
 import { NavigationStyled } from './styles.js';
-
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -12,21 +12,18 @@ const Navigation = () => {
 
       <ul className="nav-items">
         <li>
-          <a href="#">Home</a>
+         <a href="/home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+         <a href="about">About</a>
         </li>
         <li>
-          <a href="#">FAQs</a>
+         <a href="prices">Ofertas</a>
         </li>
         <li>
-          <a href="#">Activity</a>
+         <a href="contact">Contact</a>
         </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-          <div className="primary-btn">GET CONNECTED</div>
+          <div className="primary-btn">Conecte-se</div>
       </ul>
     </NavigationStyled>
   )

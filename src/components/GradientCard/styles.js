@@ -54,7 +54,7 @@ animation: colors 3s infinite ease-in-out;
                 object-fit: cover;
                 height: 45px;
                 border-radius: 50%;
-                margin-right: 2rem;
+                margin-right: 1rem;
             }
         }
     }

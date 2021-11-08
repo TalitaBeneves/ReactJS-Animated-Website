@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const BodyContentStyled = styled.div`
+export const BodyContentStyled = styled.main`
     .sellercards{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -15,6 +15,7 @@ export const BodyContentStyled = styled.div`
         background-color: #020A27;
         padding: 3rem 0;
         border-top: 1px solid rgba(255, 255, 255, 0.08);
+        
         p{
             text-align: center;
             opacity: 0.7;

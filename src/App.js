@@ -1,5 +1,5 @@
 import BodyContent from './components/BodyContent/index.js';
-import MainArea from './components/MainArea/index.js';
+import MainArea from './components/MainArea/';
 import './GlobalStyle.js';
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <MainArea />
       <BodyContent />
-    </div>
+    </div>   
+    
   );
 }
 
