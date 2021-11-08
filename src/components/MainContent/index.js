@@ -11,9 +11,9 @@ const MainContent = () => {
         <div className="content">
             <div className="left">
               <SmallHeading title={'Montanhas mais perigosas do mundo'} identifier={'Before'} />
-              <h1>Montanhas</h1>
+              <h2>As montanhas são formadas por forças tectônicas, erosão ou vulcanismo, que agem em escalas de tempo de até dezenas de milhões de anos. Uma vez que a construção da montanha cessa, as montanhas são lentamente niveladas pela ação do clima, por meio de quedas e outras formas de perda de massa, bem como pela erosão por rios e geleiras.</h2>
               <p>
-              As montanhas são formadas por forças tectônicas, erosão ou vulcanismo, que agem em escalas de tempo de até dezenas de milhões de anos. Uma vez que a construção da montanha cessa, as montanhas são lentamente niveladas pela ação do clima, por meio de quedas e outras formas de perda de massa, bem como pela erosão por rios e geleiras.
+              
               </p>
               <div className="btns-con">
                 <CtaButton name={'discover more'}/>

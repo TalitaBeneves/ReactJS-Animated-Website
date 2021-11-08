@@ -8,7 +8,7 @@ const data = [
         id: 1,
         name: 'Mont Blanc ',
         image: MontBlanc,
-        deaths: '1000 mortes'
+        deaths: '1.800 mortes'
     },
     {
         id: 2,
@@ -30,6 +30,6 @@ const data = [
     },
     
     
-]
+];
 
 export default data;
