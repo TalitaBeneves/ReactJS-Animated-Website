@@ -1,5 +1,5 @@
 {
-  "name": "react-animated-website",
+  "name": "animated-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "web-vitals": "^1.0.1",
     "gh-pages": "^3.2.3"
   },
-  "homepage": "https://talitabeneves.github.io/react-animated-website",
+  "homepage": "https://talitabeneves.github.io/animated-website",
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
