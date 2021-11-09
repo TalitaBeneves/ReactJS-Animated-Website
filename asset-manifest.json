@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/react-animated-website/static/js/main.706780e1.chunk.js",
+    "main.js.map": "/react-animated-website/static/js/main.706780e1.chunk.js.map",
+    "runtime-main.js": "/react-animated-website/static/js/runtime-main.621f3299.js",
+    "runtime-main.js.map": "/react-animated-website/static/js/runtime-main.621f3299.js.map",
+    "static/js/2.8a98d1d8.chunk.js": "/react-animated-website/static/js/2.8a98d1d8.chunk.js",
+    "static/js/2.8a98d1d8.chunk.js.map": "/react-animated-website/static/js/2.8a98d1d8.chunk.js.map",
+    "index.html": "/react-animated-website/index.html",
+    "static/js/2.8a98d1d8.chunk.js.LICENSE.txt": "/react-animated-website/static/js/2.8a98d1d8.chunk.js.LICENSE.txt",
+    "static/media/ACONCÁGUA.fc327e73.png": "/react-animated-website/static/media/ACONCÁGUA.fc327e73.png",
+    "static/media/Annapurna.944092bf.png": "/react-animated-website/static/media/Annapurna.944092bf.png",
+    "static/media/Dhaulagiri.22ea1ec9.png": "/react-animated-website/static/media/Dhaulagiri.22ea1ec9.png",
+    "static/media/Kala-Patthar.d132b103.png": "/react-animated-website/static/media/Kala-Patthar.d132b103.png",
+    "static/media/Matterhorn.216553b1.jpg": "/react-animated-website/static/media/Matterhorn.216553b1.jpg",
+    "static/media/Mountain.b11b83e3.mp4": "/react-animated-website/static/media/Mountain.b11b83e3.mp4",
+    "static/media/Shishapangma.97993355.png": "/react-animated-website/static/media/Shishapangma.97993355.png",
+    "static/media/cho-oyu.003edf41.png": "/react-animated-website/static/media/cho-oyu.003edf41.png",
+    "static/media/everest.f56f5bcf.png": "/react-animated-website/static/media/everest.f56f5bcf.png",
+    "static/media/gasherbrum.dcc2dac4.png": "/react-animated-website/static/media/gasherbrum.dcc2dac4.png",
+    "static/media/heart.4395cb21.svg": "/react-animated-website/static/media/heart.4395cb21.svg",
+    "static/media/k2.634212d1.png": "/react-animated-website/static/media/k2.634212d1.png",
+    "static/media/kangchenjunga.1032af28.png": "/react-animated-website/static/media/kangchenjunga.1032af28.png",
+    "static/media/lhotse.cd13f702.png": "/react-animated-website/static/media/lhotse.cd13f702.png",
+    "static/media/manaslu.92f6dc00.png": "/react-animated-website/static/media/manaslu.92f6dc00.png",
+    "static/media/map.3a57e88c.png": "/react-animated-website/static/media/map.3a57e88c.png",
+    "static/media/mont-blanc.9fdf207f.png": "/react-animated-website/static/media/mont-blanc.9fdf207f.png",
+    "static/media/nanga-parbat.da7b05fb.png": "/react-animated-website/static/media/nanga-parbat.da7b05fb.png",
+    "static/media/time.eac52871.svg": "/react-animated-website/static/media/time.eac52871.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.621f3299.js",
+    "static/js/2.8a98d1d8.chunk.js",
+    "static/js/main.706780e1.chunk.js"
+  ]
+}
