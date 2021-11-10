@@ -1,8 +1,6 @@
 import React from 'react';
 import { SellerCardStyled } from './styled';
-import data from '../../Datas/data';
-import data2 from '../../Datas/data2';
-import data3 from '../../Datas/data3';
+import {data, data2, data3 } from '../../data';
 
 function SellerCard() {
   return (

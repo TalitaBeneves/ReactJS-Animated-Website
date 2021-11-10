@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../../img/logo2.png';
 import { NavigationStyled } from './styles.js';
-import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
